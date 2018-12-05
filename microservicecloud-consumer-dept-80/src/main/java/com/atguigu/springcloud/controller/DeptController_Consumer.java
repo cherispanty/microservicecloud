@@ -30,10 +30,5 @@ public class DeptController_Consumer {
 	public List<Dept> list() {
 		return restTemplate.getForObject(REST_URL_PREFIX+"/dept/list", List.class);
 	}
-	
-	
-	
-	
-	
-	
+
 }
